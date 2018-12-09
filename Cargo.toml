@@ -1,0 +1,19 @@
+# --------------------------------------------------------------------
+[package]
+# --------------------------------------------------------------------
+name = "env-lang"
+license = "MIT"
+version = "1.0.0"
+authors = ["Alban Minassian"]
+description = "return env LANG' struct with language, localisation, charset and variant"
+homepage = "https://github.com/AlbanMinassian/env-lang"
+repository = "https://github.com/AlbanMinassian/env-lang"
+documentation = "https://docs.rs/env-lang"
+readme = "README.md"
+edition = "2018"
+
+# --------------------------------------------------------------------
+[dependencies]
+# --------------------------------------------------------------------
+failure = "0.1.3"
+
